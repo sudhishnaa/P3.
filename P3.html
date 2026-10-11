@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservations Form</title>
+</head>
+<body>
+
+<h3>Reservations Form</h3>
+
+<form>
+    First Name:
+    <input type="text" name="firstname">
+    <br>
+
+    Last Name:
+    <input type="text" name="lastname">
+    <br>
+
+    <b>Address</b>
+    <br>
+
+    Number & Street:
+    <input type="text" name="street">
+    <br>
+
+    City:
+    <input type="text" name="city">
+    <br>
+
+    State:
+    <input type="text" name="state">
+    <br>
+
+    Zip Code:
+    <input type="text" name="zipcode">
+    <br>
+
+    Check-in Date:
+    <input type="date" name="checkin">
+    <br>
+
+    Check-out Date:
+    <input type="date" name="checkout">
+    <br>
+
+    Phone:
+    <input type="tel" name="phone">
+    <br>
+
+    E-mail Address:
+    <input type="email" name="email">
+    <br>
+
+    Payment Method:
+    <br>
+    <input type="radio" name="payment" value="cash"> Cash
+    <input type="radio" name="payment" value="card"> Card
+    <br>
+
+    Card Number:
+    <input type="text" name="cardnumber">
+    <br>
+
+    Special Requests:
+    <br>
+    <textarea name="requests" rows="4" cols="25"></textarea>
+    <br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PetSphere - Pet Reservation Form</title>
+</head>
+<body>
+
+    <h3>PetSphere - Pet Reservation Form</h3>
+
+    <form>
+        <label for="fname">Owner First Name:</label><br>
+        <input type="text" id="fname" name="fname" required>
+        <br>
+
+        <label for="lname">Owner Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+
+        <label for="petname">Pet Name:</label><br>
+        <input type="text" id="petname" name="petname" required>
+        <br>
+
+        <label for="pettype">Pet Type:</label><br>
+        <select id="pettype" name="pettype" required>
+            <option value="">Select Pet</option>
+            <option>Dog</option>
+            <option>Cat</option>
+            <option>Bird</option>
+            <option>Rabbit</option>
+            <option>Fish</option>
+            <option>Other</option>
+        </select>
+        <br>
+
+        <label for="breed">Breed:</label><br>
+        <input type="text" id="breed" name="breed">
+        <br>
+
+        <label for="age">Pet Age:</label><br>
+        <input type="number" id="age" name="age" min="0" required>
+        <br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required>
+        <br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required>
+        <br>
+
+        <label for="state">State:</label><br>
+        <input type="text" id="state" name="state" required>
+        <br>
+
+        <label for="zip">Zip Code:</label><br>
+        <input type="text" id="zip" name="zip" required>
+        <br>
+
+        <label for="date">Reservation Date:</label><br>
+        <input type="date" id="date" name="date" required>
+        <br>
+
+        <label for="time">Reservation Time:</label><br>
+        <input type="time" id="time" name="time" required>
+        <br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="service">Service Required:</label><br>
+        <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option>Pet Grooming</option>
+            <option>Veterinary Consultation</option>
+            <option>Pet Boarding</option>
+            <option>Pet Training</option>
+            <option>Pet Adoption</option>
+        </select>
+        <br>
+
+        <label>Payment Method:</label><br>
+        <input type="radio" id="cash" name="payment" value="Cash">
+        <label for="cash">Cash</label>
+
+        <input type="radio" id="card" name="payment" value="Card">
+        <label for="card">Card</label>
+
+        <input type="radio" id="online" name="payment" value="Online">
+        <label for="online">Online Payment</label>
+        <br>
+
+        <label for="requests">Special Requests:</label><br>
+        <textarea id="requests" name="requests" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PetSphere Training Reservation</title>
+</head>
+<body>
+
+<h2>Pet Training Reservation Form</h2>
+
+<form>
+    Owner Name:
+    <input type="text" name="owner" required><br><br>
+
+    Pet Name:
+    <input type="text" name="petname" required><br><br>
+
+    Pet Type:
+    <select name="pettype">
+        <option>Dog</option>
+        <option>Cat</option>
+        <option>Bird</option>
+        <option>Other</option>
+    </select><br><br>
+
+    Training Type:
+    <select name="training">
+        <option>Basic Training</option>
+        <option>Obedience Training</option>
+        <option>Behaviour Training</option>
+        <option>Advanced Training</option>
+    </select><br><br>
+
+    Preferred Date:
+    <input type="date" name="date" required><br><br>
+
+    Preferred Time:
+    <input type="time" name="time" required><br><br>
+
+    Experience Level:
+    <input type="radio" name="level" value="Beginner"> Beginner
+    <input type="radio" name="level" value="Advanced"> Advanced
+    <br><br>
+
+    Phone Number:
+    <input type="tel" name="phone" required><br><br>
+
+    <input type="submit" value="Reserve Training">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
